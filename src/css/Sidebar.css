@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #18191a;
+}
+
+.sidebar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 300px;
+    padding: 10px 14px;
+    background-color: #242526;
+    transition: all 0.3s ease;
+}
+
+.sidebar .text {
+    color: #ccc;
+    transition: all .2s ease;
+    text-align: center;
+    
+}
+
+.text .name{
+    color: #000;
+    font-size: 20px;
+}
+
+header{
+    position: relative;
+}
+
+header .name{
+    margin-top: 2px;
+    font-size: 18px;
+    font-weight: 900;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.sidebar .icon{
+    min-width: 60px;
+    border-radius: 6px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+}
+
+.sidebar li{
+    height: 40px;
+    list-style: none;
+    font-size: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.sidebar li a{
+    list-style: none;
+    height: 100%;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: all .2s ease;
+}
+
+.sidebar li a:hover{
+    background-color: #3a3b3c;
+}

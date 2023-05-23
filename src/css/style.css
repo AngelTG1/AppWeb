@@ -1,0 +1,14 @@
+.pdf{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 450px;
+    height: 650px;
+    overflow-y: none;
+}
+
+section{
+    position: relative;
+    width: calc(100% - 300px);
+    left: 300px;
+}
